@@ -14,5 +14,5 @@ A beginner-friendly weather app built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-🔗 (Add GitHub Pages link here)
+ https://richasingh0123.github.io/weather-dashboard/
 
