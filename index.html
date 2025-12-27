@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+
+  <!-- Effects -->
+  <div id="rain"></div>
+  <div id="confetti"></div>
+  <div id="sunrays"></div>
+
+  <div class="app">
+    <div class="header">
+      <h1><span class="emoji-title">🌤️</span> Weather</h1>
+     <p>Live weather updates</p>
+    </div>
+
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div id="warning" class="warning"></div>
+
+    <div id="weatherResult" class="weather"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
