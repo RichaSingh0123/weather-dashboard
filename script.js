@@ -35,7 +35,6 @@ async function getWeather() {
   `;
 }
 
-/* EMOJI LOGIC */
 function getEmoji(c) {
   if (c === "Clear") return "☀️";
   if (c === "Rain") return "🌧️";
@@ -46,7 +45,7 @@ function getEmoji(c) {
   return "🌫️";
 }
 
-/* EFFECTS */
+
 function handleEffects(c) {
   if (c === "Rain" || c === "Drizzle") startRain();
   if (c === "Clear") {
@@ -55,7 +54,7 @@ function handleEffects(c) {
   }
 }
 
-/* WARNING */
+
 function handleWarning(c) {
   const w = document.getElementById("warning");
   if (c === "Thunderstorm" || c === "Snow") {
@@ -66,7 +65,7 @@ function handleWarning(c) {
   }
 }
 
-/* BACKGROUND */
+
 function changeBackground(c) {
   if (c === "Clear")
     document.body.style.background = "radial-gradient(circle at top, #ffe259, #ffa751)";
@@ -76,7 +75,7 @@ function changeBackground(c) {
     document.body.style.background = "radial-gradient(circle at top, #b3e5ff, #6fa8ff)";
 }
 
-/* RAIN */
+
 function startRain() {
   rain.style.display = "block";
   rain.innerHTML = "";
@@ -89,7 +88,7 @@ function startRain() {
   }
 }
 
-/* RESET */
+
 function resetEffects() {
   rain.style.display = "none";
   rain.innerHTML = "";
@@ -97,7 +96,7 @@ function resetEffects() {
   sunrays.style.display = "none";
 }
 
-/* CONFETTI */
+
 function showConfetti() {
   for (let i = 0; i < 80; i++) {
     const c = document.createElement("div");
@@ -108,3 +107,4 @@ function showConfetti() {
   }
   setTimeout(() => confetti.innerHTML = "", 3000);
 }
+
