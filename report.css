@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 
-/* APP CONTAINER */
+
 .app {
   width: 420px;
   min-height: 560px;
@@ -27,7 +27,7 @@ body {
   z-index: 5;
 }
 
-/* HEADER */
+
 .header {
   text-align: center;
   margin-bottom: 20px;
@@ -42,7 +42,7 @@ body {
   opacity: 0.7;
 }
 
-/* SEARCH */
+
 .search {
   display: flex;
   background: white;
@@ -70,7 +70,6 @@ body {
   font-weight: 600;
 }
 
-/* WARNING */
 .warning {
   display: none;
   background: linear-gradient(135deg, #ff6a6a, #ff4757);
@@ -82,7 +81,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* WEATHER RESULT */
 .weather {
   display: none;
   text-align: center;
@@ -94,7 +92,7 @@ body {
   font-weight: 600;
 }
 
-/* BIG HERO EMOJI */
+
 .emoji {
   font-size: 120px;
   margin: 15px 0;
@@ -133,7 +131,7 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* 🌧 RAIN */
+
 #rain {
   position: fixed;
   inset: 0;
@@ -155,7 +153,7 @@ body {
   to { transform: translateY(110vh); }
 }
 
-/* ☀️ SUN RAYS */
+
 #sunrays {
   position: fixed;
   inset: 0;
@@ -172,7 +170,7 @@ body {
   100% { opacity: 0.4; }
 }
 
-/* 🎉 CONFETTI */
+
 #confetti {
   position: fixed;
   inset: 0;
@@ -201,5 +199,6 @@ body {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
+
 
 
